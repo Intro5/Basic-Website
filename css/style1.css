@@ -1,0 +1,75 @@
+body {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    width: 100%;
+    color:#8E8D8A;
+    font-family: helvetica;
+}
+label, select {
+    display: block;
+    margin: 10px;
+    background-color: #D8C3A5;
+    color: #8E8D8A;
+    padding: 3px 7px;
+    width: 150px;
+    border: 2px solid #E85A4F;
+    border-radius: 5px;
+    font-family: helvetica;
+    font-size: 12pt;
+    text-align: center;
+}
+
+textarea {
+    background-color: #D8C3A5;
+    color: #8E8D8A;
+    padding: 3px 7px;
+    width: 300px;
+    border: 2px solid #E85A4F;
+    border-radius: 5px;
+    font-family: helvetica;
+    font-size: 12pt;
+    text-align: center;
+}
+
+input[type="submit"], input[type="reset"] {
+    display: inline;
+    width: 80px;
+    height: 30px;;
+    border: #D8C3A5;
+    color: #8E8D8A;
+    background-color: #D8C3A5;
+    font-family: helvetica;
+    font-size: 12pt;
+    border-radius: 4px;
+    padding: 3px 7px;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    cursor: pointer;
+    background-color: #E85A4F;
+}
+
+input {
+    outline: none;
+}
+
+input:focus {
+    background-color: #8E8D8A;
+}
+
+input[type="text"], input[type="password"] {
+    width: 200px;
+    height: 30px;
+    border: 3px solid #E85A4F;
+    border-radius: 5px;
+    color: #D8C3A5;
+    padding-left: 30px;
+}
+
+h1 {
+    font-family: helvetica;
+    font-size: 48px;
+    text-align: center;
+    color: #E85A4F;
+    margin-top: 0;
+}

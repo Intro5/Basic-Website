@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Html, video, audio, embeding">
+    <meta name="description" content="This is a page for video and audio">
+    <title>Video and Audio</title>
+    <link rel="stylesheet" href="./css/style2.css">
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+
+        a {
+            margin: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="grid">
+        <div class="row">
+            <div class="col-12">
+                <!--Cat Video via <video> -->
+                <video src="img/IMG_0223.mp4" controls width="300px" height="600px"></video>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <!--Audio from cat video via <audio>-->
+                <audio src="img/IMG_0223.mp4" controls></audio>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <!--Cat video embeded with iframe-->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/nl8o9PsJPAQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <a href="index.html">Home</a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

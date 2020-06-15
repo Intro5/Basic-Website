@@ -1,0 +1,184 @@
+.col-3 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 100px;
+}
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 400px;
+}
+
+.col-8 {
+    width: 500px;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.row {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+.row2 {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 1px;
+    text-align: center;
+
+}
+
+
+.grid {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    background: #EAE7DC;
+    border-radius: 3.25px;
+}
+
+.grid2 {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+body {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    width: 100%;
+}
+
+h1.main {
+    font-family: helvetica;
+    font-size: 48px;
+    text-align: center;
+    color: #E85A4F;
+    margin-top: 0;
+}
+
+h2 {
+    font-family: helvetica;
+    font-size: 24px;
+    text-align: left;
+    color: #5a584a;
+    margin-top: 0;
+}
+
+p {
+    font-family: helvetica;
+    color: #5a584a; 
+    text-align: left;
+}
+
+h3 {
+    font-family: helvetica;
+    color: #5a584a; 
+    text-align: left;
+}
+
+h4 {
+    font-family: helvetica;
+    color: #5a584a; 
+    text-align: left;
+}
+
+li.menu {
+    float: left;
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+ul {
+    font-family: helvetica;
+    color: #5a584a;
+}
+
+ol {
+    font-family: helvetica;
+    color: #5a584a;
+}
+
+blockquote {
+    font-family: helvetica;
+    color: #5a584a;
+}
+
+a:link, a:visited {
+    display: block;
+    width: 180px;
+    border-radius: 15px;
+    background-color: #8E8D8A;
+    color: #E85A4F;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    font-family: sans-serif;
+    height: 20px;
+}
+
+a:hover {
+    background-color: #E98074;
+}
+
+a:active {
+    background-color: #E85A4F;
+    color: #5a584a
+}
+
+table, th {
+    background-color: #D8C3A5;
+    border: 1px solid #E85A4F;
+    text-align: left;
+    text-indent: 5%;
+    font-family: helvetica;
+   
+}
+
+.myTable {
+    background-color: #EAE7DC;
+    border: 2px solid #E85A4F;
+    text-align: left;
+    text-indent: 5%;
+    font-family: helvetica;
+    
+}
+
+.myth {
+    background-color: #EAE7DC;
+    border: 2px solid #E85A4F;
+    text-align: center;
+    text-indent: 5%;
+    font-family: helvetica;
+}
+
+table {
+    border-radius: 5px;
+    color: #E85A4F;
+    width: 100%;
+    height: 90%;
+    font-family: helvetica;
+
+}
+
+dl, dd, dt {
+    font-family: helvetica;
+    color: #5a584a;
+}
